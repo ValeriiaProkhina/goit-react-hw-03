@@ -12,7 +12,7 @@ const validationSchema = yup.object().shape({
   number: yup
     .string()
     .min(3, "Too Short!")
-    .max(13, "Too Long!")
+    .max(50, "Too Long!")
     .required("Required"),
 });
 const initialValues = { name: "", number: "" };
